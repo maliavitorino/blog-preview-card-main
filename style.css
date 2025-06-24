@@ -54,7 +54,7 @@ body {
     width: 100%;
     max-width: 20rem;
     margin-bottom: 1.5rem;
-    gap: 20px;
+    gap: 1.25rem;
     border: 1px solid var(--dark-gray);
     border-radius: 1.25rem;
 }
@@ -78,28 +78,28 @@ figcaption {
     font-family: 'Figtree', sans-serif;
     font-weight: 800;
     color: var(--dark-gray);
-    font-size: 14px;
-    text-align: justify;
-    border-radius: 4px;
-    padding: 4px 12px 4px 12px;
+    font-size: 0.875rem;
+    text-align: left;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.75rem 0.25rem 0.75rem;
     width: max-content;
-    margin: 0 0 12px 0;
+    margin: 0 0 0.75rem 0;
 }
 
 .date {
     font-family: 'Figtree', sans-serif;
     font-weight: 400;
     color: var(--dark-gray);
-    text-align: justify;
-    font-size: 14px;
+    text-align: left;
+    font-size: 0.875rem;
 }
 
 h1 {
     font-family: 'Figtree', sans-serif;
     font-weight: 800;
     text-align: left;
-    font-size: 24px;
-    margin: 12px 0 12px 0;
+    font-size: 1.5rem;
+    margin: 0.75rem 0 0.75rem 0;
 }
 
 a {
@@ -108,7 +108,7 @@ a {
 }
 
 a:hover {
-    color: var(--yellow);
+    color: #dab83b;
 }
 
 p {
@@ -121,24 +121,24 @@ p {
 .avatar {
     display: flex;
     justify-content: left;
-    margin: 12px 0 0 0;
+    margin: 0.75rem 0 0 0;
 }
 
 .avatar img {
-    width: 32px;
-    height: 32px;
+    width: 2rem;
+    height: 2rem;
 }
 
 .avatar p {
     font-family: 'Figtree', sans-serif;
     font-weight: 800;
     color: var(--dark-gray);
-    font-size: 14px;
+    font-size: 0.875rem;
     padding: 0.4rem;
 }
 
 .attribution {
-    font-size: 11px;
+    font-size: 0.75rem;
     text-align: center;
 }
 
